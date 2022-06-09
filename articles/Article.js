@@ -16,4 +16,6 @@ const Article = connection.define('articles',{
     }
 })
 
+Article.belongsTo(Category);
+
 module.exports = Article;
